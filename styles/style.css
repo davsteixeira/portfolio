@@ -52,6 +52,7 @@ body {
     display: flex;
     flex-direction: column; /*agrupar os elementos em coluna*/
     gap: 31px; /*distancia entre os elementos*/
+    padding: 0 0 26px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -109,7 +110,7 @@ body {
     position: relative;
     bottom: 28px;
     display: flex;
-    width: 55%;
+    width: 45%;
 }
 
 .rodape {
@@ -129,30 +130,37 @@ body {
     display: flex;
     align-items: center; /*alinhar itens*/
     justify-content: space-between; /*espaço entre os elementos*/
-    gap: 82px;
+    gap: 50px;
 }
 
 .curriculo__conteudo {
     width: 50%;
     display: flex;
     flex-direction: column; /*agrupar os elementos em coluna*/
-    gap: 40px; /*distancia entre os elementos*/
+    gap: 31px; /*distancia entre os elementos*/
 }
 
 .curriculo_conteudo__titulo {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family: var(--fonte--primaria);
 }
 
 .curriculo__conteudo__texto {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-family: var(--fonte--secundaria);
 }
 
 .curriculo__conteudo__listas {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-family: var(--fonte--secundaria);
     text-align: left;
+}
+
+.curriculo__imagem {
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    width: 45%;
 }
 
 @media (max-width: 1200px) {
@@ -222,7 +230,8 @@ body {
     }
 
     .curriculo__imagem {
-        width: 80%;
+        width: 60%;
+        bottom: 0;
     }
 
 }
