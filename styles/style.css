@@ -44,14 +44,14 @@ body {
     display: flex;
     align-items: center; /*alinhar itens*/
     justify-content: space-between; /*espaço entre os elementos*/
-    gap: 82px;
+    gap: 50px;
 }
 
 .apresentacao__conteudo {
     width: 50%;
     display: flex;
     flex-direction: column; /*agrupar os elementos em coluna*/
-    gap: 40px; /*distancia entre os elementos*/
+    gap: 31px; /*distancia entre os elementos*/
 }
 
 .apresentacao__conteudo__titulo {
@@ -64,7 +64,7 @@ body {
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-family: var(--fonte--secundaria);
 }
 
@@ -75,13 +75,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 28px;
 }
 
 .apresentacao__links__subtitulo {
     font-family: var(--fonte--primaria);
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
 }
 
 .apresentacao__links__navegacao {
@@ -89,12 +89,12 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 50%;
-    text-align: center;
+    width: 45%;
+    text-align: left;
     border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 21.5px 0;
+    padding: 19.5px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte--secundaria);
@@ -106,17 +106,19 @@ body {
 }
 
 .apresentacao__imagem {
+    position: relative;
+    bottom: 28px;
     display: flex;
-    width: 50%;
+    width: 55%;
 }
 
 .rodape {
-    padding: 24px;
+    padding: 16px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte--secundaria);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
@@ -161,7 +163,6 @@ body {
     .cabecalho__menu {
         display: flex;
         justify-content: center;
-        gap: 25px;
     }
 
     .apresentacao {
@@ -190,7 +191,8 @@ body {
     }
 
     .apresentacao__imagem {
-        width: 70%;
+        width: 60%;
+        bottom: 0;
     }
 
 /*curriculo*/
@@ -220,7 +222,25 @@ body {
     }
 
     .curriculo__imagem {
-        width: 60%;
+        width: 80%;
     }
 
+}
+
+@media (max-width: 380px) {
+    .cabecalho__menu__link {
+        font-size: 1rem;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.25rem;
+    }
+
+    .apresentacao__conteudo__texto {
+        font-size: 1.15rem;
+    }
+
+    .apresentacao__links__navegacao {
+        width: 60%;
+    }
 }
