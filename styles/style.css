@@ -105,12 +105,12 @@ body {
 
 .apresentacao__links__navegacao:hover {
     background-color: #051326;
-    padding: 4%
+    scale: 1.5;
 }
 
 .apresentacao__imagem {
     display: flex;
-    width: 45%;
+    width: 50%;
 }
 
 .rodape {
@@ -129,7 +129,9 @@ body {
     }
 
     .cabecalho__menu {
+        display: flex;
         justify-content: center;
+        gap: 25px;
     }
 
     .apresentacao {
@@ -143,6 +145,7 @@ body {
 
     .apresentacao__conteudo__listas {
         padding: 4%;
+
     }
 
 }
