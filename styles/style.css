@@ -110,7 +110,7 @@ body {
     position: relative;
     bottom: 28px;
     display: flex;
-    width: 45%;
+    width: 40%;
 }
 
 .rodape {
@@ -160,7 +160,7 @@ body {
     position: relative;
     bottom: 60px;
     display: flex;
-    width: 45%;
+    width: 40%;
 }
 
 @media (max-width: 1200px) {
@@ -256,3 +256,4 @@ body {
         width: 70%;
     }
 
+}
