@@ -118,18 +118,21 @@ body {
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center;
-    font-family: var(--fonte--secundaria);
     font-size: 1.25rem;
     font-weight: 400;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /*CSS Curriculo*/
 
 .curriculo {
     padding: 3% 15%;
+    margin-bottom: 60px; /* Adicionei uma margem inferior para evitar que o rodapé fique colado ao conteúdo */
     display: flex;
-    align-items: center; /*alinhar itens*/
-    justify-content: space-between; /*espaço entre os elementos*/
+    align-items: center;
+    justify-content: space-between;
     gap: 50px;
 }
 
